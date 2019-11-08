@@ -190,8 +190,11 @@ img {
   max-height: 100%;
 }
 
-/* links
+links
 /* unvisited link */
+a:link {
+  color: white;
+}
 
 /* visited link */
 a:visited {
@@ -206,8 +209,4 @@ a:hover {
 /* selected link */
 a:active {
   color: white;
-}
-*/ a {
-  color: inherit;
-  text-decoration: none;
 }
