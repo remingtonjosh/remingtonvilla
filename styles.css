@@ -1,13 +1,20 @@
+.links a,
+.links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.contactlink a,
+.contactlinka:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 p {
   line-height: 30px;
   margin-left: 40px;
   margin-right: 40px;
   text-align: left;
-}
-
-.email {
-  text-decoration: none;
-  color: black;
 }
 
 .gradient {
@@ -17,11 +24,9 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.links {
-  color: white;
-}
 .aloha {
   font-family: "Sacramento", cursive;
+  width: 100%;
   color: white;
   margin-top: 25%;
 }
@@ -30,13 +35,7 @@ p {
   font-family: "Sacramento", cursive;
   text-align: left;
   margin-left: 15%;
-}
-
-.links {
-  color: rgb(255, 255, 255);
-  height: auto;
-  margin: auto;
-  text-align: center;
+  color: white;
 }
 
 .masthead {
@@ -76,7 +75,7 @@ p {
 
 .portfolio {
   margin-top: 20px;
-  height: 300px;
+
   color: rgb(0, 0, 0);
 }
 
@@ -84,7 +83,7 @@ p {
   margin-top: 20px;
   height: 300px;
   color: rgb(0, 0, 0);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .contact {
@@ -99,7 +98,7 @@ p {
 /* hoover */
 
 .hovereffect {
-  width: 100%;
+  width: 80%;
   height: 100%;
   float: left;
   overflow: hidden;
@@ -188,25 +187,4 @@ p {
 img {
   max-width: 100%;
   max-height: 100%;
-}
-
-links
-/* unvisited link */
-a:link {
-  color: white;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: white;
-}
-
-/* selected link */
-a:active {
-  color: white;
 }
