@@ -1,0 +1,190 @@
+.links a,
+.links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.contactlink a,
+.contactlinka:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+p {
+  line-height: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(241, 99, 135), rgb(150, 230, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aloha {
+  font-family: "Sacramento", cursive;
+  width: 100%;
+  color: white;
+  margin-top: 25%;
+}
+
+.signature {
+  font-family: "Sacramento", cursive;
+  text-align: left;
+  margin-left: 15%;
+  color: white;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background: url("https://wallpaperaccess.com/full/1155011.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  text-align: left;
+  margin: auto;
+}
+
+.containershow {
+  padding: 70px 0 70px 0;
+  text-align: center;
+}
+
+.aboutme {
+  height: 500px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.aboutmeback {
+  margin: 10px;
+  width: 100%;
+}
+
+.aboutmepic {
+  margin: 5%;
+  float: left;
+}
+
+.portfolio {
+  margin-top: 20px;
+
+  color: rgb(0, 0, 0);
+}
+
+.portfolisticky {
+  margin-top: 20px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+  overflow-y: auto;
+}
+
+.contact {
+  width: 100%;
+  height: 300px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+/* hoover */
+
+.hovereffect {
+  width: 80%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 40px;
+  background-color: transparent;
+  padding: 15% 0 10px 0;
+  text-align: left;
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid #fff;
+  content: "";
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px, 0, 0);
+  transform: translate3d(-20px, 0, 0);
+}
+
+.hovereffect a,
+.hovereffect p {
+  color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.2;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a,
+.hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
